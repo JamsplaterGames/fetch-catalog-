@@ -1,0 +1,4254 @@
+{iferror:{set:start|{or:{arg:0}|7}}
+{set:end|{or:{arg:1}|0.1}}
+{iscript:
+load {iv:{args}} i
+resize i 640 360
+get i width w
+get i height h
+repeatduration i {get:start}+{get:end}
+snip i {get:start} {get:start}+{get:end}
+copy i ia
+load {iv:{args}} i1
+resize i1 640 360
+repeatduration i1 7.1+{get:end}
+snip i1 7.1 7.1+{get:end}
+flop i1
+rotate i1 270
+waves i1 w/40 w/6.5 5
+rotate i1 90
+hueshifthsv i1 45
+audiopitch i1 1.059463
+snip i1 0 {get:end}*1
+load {iv:{args}} i2
+resize i2 640 360
+repeatduration i2 7.199999999999999+{get:end}
+snip i2 7.199999999999999 7.199999999999999+{get:end}
+flop i2
+rotate i2 270
+waves i2 w/40 w/6.5 5
+rotate i2 90
+hueshifthsv i2 45
+flop i2
+rotate i2 270
+waves i2 w/40 w/6.5 5
+rotate i2 90
+hueshifthsv i2 45
+audiopitch i2 1.122462
+snip i2 0 {get:end}*1
+load {iv:{args}} i3
+resize i3 640 360
+repeatduration i3 7.299999999999999+{get:end}
+snip i3 7.299999999999999 7.299999999999999+{get:end}
+flop i3
+rotate i3 270
+waves i3 w/40 w/6.5 5
+rotate i3 90
+hueshifthsv i3 45
+flop i3
+rotate i3 270
+waves i3 w/40 w/6.5 5
+rotate i3 90
+hueshifthsv i3 45
+flop i3
+rotate i3 270
+waves i3 w/40 w/6.5 5
+rotate i3 90
+hueshifthsv i3 45
+audiopitch i3 1.189207
+snip i3 0 {get:end}*1
+load {iv:{args}} i4
+resize i4 640 360
+repeatduration i4 7.399999999999999+{get:end}
+snip i4 7.399999999999999 7.399999999999999+{get:end}
+flop i4
+rotate i4 270
+waves i4 w/40 w/6.5 5
+rotate i4 90
+hueshifthsv i4 45
+flop i4
+rotate i4 270
+waves i4 w/40 w/6.5 5
+rotate i4 90
+hueshifthsv i4 45
+flop i4
+rotate i4 270
+waves i4 w/40 w/6.5 5
+rotate i4 90
+hueshifthsv i4 45
+flop i4
+rotate i4 270
+waves i4 w/40 w/6.5 5
+rotate i4 90
+hueshifthsv i4 45
+audiopitch i4 1.259921
+snip i4 0 {get:end}*1
+load {iv:{args}} i5
+resize i5 640 360
+repeatduration i5 7.499999999999998+{get:end}
+snip i5 7.499999999999998 7.499999999999998+{get:end}
+flop i5
+rotate i5 270
+waves i5 w/40 w/6.5 5
+rotate i5 90
+hueshifthsv i5 45
+flop i5
+rotate i5 270
+waves i5 w/40 w/6.5 5
+rotate i5 90
+hueshifthsv i5 45
+flop i5
+rotate i5 270
+waves i5 w/40 w/6.5 5
+rotate i5 90
+hueshifthsv i5 45
+flop i5
+rotate i5 270
+waves i5 w/40 w/6.5 5
+rotate i5 90
+hueshifthsv i5 45
+flop i5
+rotate i5 270
+waves i5 w/40 w/6.5 5
+rotate i5 90
+hueshifthsv i5 45
+audiopitch i5 1.334840
+snip i5 0 {get:end}*1
+load {iv:{args}} i6
+resize i6 640 360
+repeatduration i6 7.599999999999998+{get:end}
+snip i6 7.599999999999998 7.599999999999998+{get:end}
+flop i6
+rotate i6 270
+waves i6 w/40 w/6.5 5
+rotate i6 90
+hueshifthsv i6 45
+flop i6
+rotate i6 270
+waves i6 w/40 w/6.5 5
+rotate i6 90
+hueshifthsv i6 45
+flop i6
+rotate i6 270
+waves i6 w/40 w/6.5 5
+rotate i6 90
+hueshifthsv i6 45
+flop i6
+rotate i6 270
+waves i6 w/40 w/6.5 5
+rotate i6 90
+hueshifthsv i6 45
+flop i6
+rotate i6 270
+waves i6 w/40 w/6.5 5
+rotate i6 90
+hueshifthsv i6 45
+flop i6
+rotate i6 270
+waves i6 w/40 w/6.5 5
+rotate i6 90
+hueshifthsv i6 45
+audiopitch i6 1.414214
+snip i6 0 {get:end}*1
+load {iv:{args}} i7
+resize i7 640 360
+repeatduration i7 7.6999999999999975+{get:end}
+snip i7 7.6999999999999975 7.6999999999999975+{get:end}
+flop i7
+rotate i7 270
+waves i7 w/40 w/6.5 5
+rotate i7 90
+hueshifthsv i7 45
+flop i7
+rotate i7 270
+waves i7 w/40 w/6.5 5
+rotate i7 90
+hueshifthsv i7 45
+flop i7
+rotate i7 270
+waves i7 w/40 w/6.5 5
+rotate i7 90
+hueshifthsv i7 45
+flop i7
+rotate i7 270
+waves i7 w/40 w/6.5 5
+rotate i7 90
+hueshifthsv i7 45
+flop i7
+rotate i7 270
+waves i7 w/40 w/6.5 5
+rotate i7 90
+hueshifthsv i7 45
+flop i7
+rotate i7 270
+waves i7 w/40 w/6.5 5
+rotate i7 90
+hueshifthsv i7 45
+flop i7
+rotate i7 270
+waves i7 w/40 w/6.5 5
+rotate i7 90
+hueshifthsv i7 45
+audiopitch i7 1.498307
+snip i7 0 {get:end}*1
+load {iv:{args}} i8
+resize i8 640 360
+repeatduration i8 7.799999999999997+{get:end}
+snip i8 7.799999999999997 7.799999999999997+{get:end}
+flop i8
+rotate i8 270
+waves i8 w/40 w/6.5 5
+rotate i8 90
+hueshifthsv i8 45
+flop i8
+rotate i8 270
+waves i8 w/40 w/6.5 5
+rotate i8 90
+hueshifthsv i8 45
+flop i8
+rotate i8 270
+waves i8 w/40 w/6.5 5
+rotate i8 90
+hueshifthsv i8 45
+flop i8
+rotate i8 270
+waves i8 w/40 w/6.5 5
+rotate i8 90
+hueshifthsv i8 45
+flop i8
+rotate i8 270
+waves i8 w/40 w/6.5 5
+rotate i8 90
+hueshifthsv i8 45
+flop i8
+rotate i8 270
+waves i8 w/40 w/6.5 5
+rotate i8 90
+hueshifthsv i8 45
+flop i8
+rotate i8 270
+waves i8 w/40 w/6.5 5
+rotate i8 90
+hueshifthsv i8 45
+flop i8
+rotate i8 270
+waves i8 w/40 w/6.5 5
+rotate i8 90
+hueshifthsv i8 45
+audiopitch i8 1.587401
+snip i8 0 {get:end}*1
+load {iv:{args}} i9
+resize i9 640 360
+repeatduration i9 7.899999999999997+{get:end}
+snip i9 7.899999999999997 7.899999999999997+{get:end}
+flop i9
+rotate i9 270
+waves i9 w/40 w/6.5 5
+rotate i9 90
+hueshifthsv i9 45
+flop i9
+rotate i9 270
+waves i9 w/40 w/6.5 5
+rotate i9 90
+hueshifthsv i9 45
+flop i9
+rotate i9 270
+waves i9 w/40 w/6.5 5
+rotate i9 90
+hueshifthsv i9 45
+flop i9
+rotate i9 270
+waves i9 w/40 w/6.5 5
+rotate i9 90
+hueshifthsv i9 45
+flop i9
+rotate i9 270
+waves i9 w/40 w/6.5 5
+rotate i9 90
+hueshifthsv i9 45
+flop i9
+rotate i9 270
+waves i9 w/40 w/6.5 5
+rotate i9 90
+hueshifthsv i9 45
+flop i9
+rotate i9 270
+waves i9 w/40 w/6.5 5
+rotate i9 90
+hueshifthsv i9 45
+flop i9
+rotate i9 270
+waves i9 w/40 w/6.5 5
+rotate i9 90
+hueshifthsv i9 45
+flop i9
+rotate i9 270
+waves i9 w/40 w/6.5 5
+rotate i9 90
+hueshifthsv i9 45
+audiopitch i9 1.681793
+snip i9 0 {get:end}*1
+load {iv:{args}} i10
+resize i10 640 360
+repeatduration i10 7.9999999999999964+{get:end}
+snip i10 7.9999999999999964 7.9999999999999964+{get:end}
+flop i10
+rotate i10 270
+waves i10 w/40 w/6.5 5
+rotate i10 90
+hueshifthsv i10 45
+flop i10
+rotate i10 270
+waves i10 w/40 w/6.5 5
+rotate i10 90
+hueshifthsv i10 45
+flop i10
+rotate i10 270
+waves i10 w/40 w/6.5 5
+rotate i10 90
+hueshifthsv i10 45
+flop i10
+rotate i10 270
+waves i10 w/40 w/6.5 5
+rotate i10 90
+hueshifthsv i10 45
+flop i10
+rotate i10 270
+waves i10 w/40 w/6.5 5
+rotate i10 90
+hueshifthsv i10 45
+flop i10
+rotate i10 270
+waves i10 w/40 w/6.5 5
+rotate i10 90
+hueshifthsv i10 45
+flop i10
+rotate i10 270
+waves i10 w/40 w/6.5 5
+rotate i10 90
+hueshifthsv i10 45
+flop i10
+rotate i10 270
+waves i10 w/40 w/6.5 5
+rotate i10 90
+hueshifthsv i10 45
+flop i10
+rotate i10 270
+waves i10 w/40 w/6.5 5
+rotate i10 90
+hueshifthsv i10 45
+flop i10
+rotate i10 270
+waves i10 w/40 w/6.5 5
+rotate i10 90
+hueshifthsv i10 45
+audiopitch i10 1.781797
+snip i10 0 {get:end}*1
+load {iv:{args}} i11
+resize i11 640 360
+repeatduration i11 8.099999999999996+{get:end}
+snip i11 8.099999999999996 8.099999999999996+{get:end}
+flop i11
+rotate i11 270
+waves i11 w/40 w/6.5 5
+rotate i11 90
+hueshifthsv i11 45
+flop i11
+rotate i11 270
+waves i11 w/40 w/6.5 5
+rotate i11 90
+hueshifthsv i11 45
+flop i11
+rotate i11 270
+waves i11 w/40 w/6.5 5
+rotate i11 90
+hueshifthsv i11 45
+flop i11
+rotate i11 270
+waves i11 w/40 w/6.5 5
+rotate i11 90
+hueshifthsv i11 45
+flop i11
+rotate i11 270
+waves i11 w/40 w/6.5 5
+rotate i11 90
+hueshifthsv i11 45
+flop i11
+rotate i11 270
+waves i11 w/40 w/6.5 5
+rotate i11 90
+hueshifthsv i11 45
+flop i11
+rotate i11 270
+waves i11 w/40 w/6.5 5
+rotate i11 90
+hueshifthsv i11 45
+flop i11
+rotate i11 270
+waves i11 w/40 w/6.5 5
+rotate i11 90
+hueshifthsv i11 45
+flop i11
+rotate i11 270
+waves i11 w/40 w/6.5 5
+rotate i11 90
+hueshifthsv i11 45
+flop i11
+rotate i11 270
+waves i11 w/40 w/6.5 5
+rotate i11 90
+hueshifthsv i11 45
+flop i11
+rotate i11 270
+waves i11 w/40 w/6.5 5
+rotate i11 90
+hueshifthsv i11 45
+audiopitch i11 1.887749
+snip i11 0 {get:end}*1
+load {iv:{args}} i12
+resize i12 640 360
+repeatduration i12 8.199999999999996+{get:end}
+snip i12 8.199999999999996 8.199999999999996+{get:end}
+flop i12
+rotate i12 270
+waves i12 w/40 w/6.5 5
+rotate i12 90
+hueshifthsv i12 45
+flop i12
+rotate i12 270
+waves i12 w/40 w/6.5 5
+rotate i12 90
+hueshifthsv i12 45
+flop i12
+rotate i12 270
+waves i12 w/40 w/6.5 5
+rotate i12 90
+hueshifthsv i12 45
+flop i12
+rotate i12 270
+waves i12 w/40 w/6.5 5
+rotate i12 90
+hueshifthsv i12 45
+flop i12
+rotate i12 270
+waves i12 w/40 w/6.5 5
+rotate i12 90
+hueshifthsv i12 45
+flop i12
+rotate i12 270
+waves i12 w/40 w/6.5 5
+rotate i12 90
+hueshifthsv i12 45
+flop i12
+rotate i12 270
+waves i12 w/40 w/6.5 5
+rotate i12 90
+hueshifthsv i12 45
+flop i12
+rotate i12 270
+waves i12 w/40 w/6.5 5
+rotate i12 90
+hueshifthsv i12 45
+flop i12
+rotate i12 270
+waves i12 w/40 w/6.5 5
+rotate i12 90
+hueshifthsv i12 45
+flop i12
+rotate i12 270
+waves i12 w/40 w/6.5 5
+rotate i12 90
+hueshifthsv i12 45
+flop i12
+rotate i12 270
+waves i12 w/40 w/6.5 5
+rotate i12 90
+hueshifthsv i12 45
+flop i12
+rotate i12 270
+waves i12 w/40 w/6.5 5
+rotate i12 90
+hueshifthsv i12 45
+audiopitch i12 2.000000
+snip i12 0 {get:end}*1
+load {iv:{args}} i13
+resize i13 640 360
+repeatduration i13 8.299999999999995+{get:end}
+snip i13 8.299999999999995 8.299999999999995+{get:end}
+flop i13
+rotate i13 270
+waves i13 w/40 w/6.5 5
+rotate i13 90
+hueshifthsv i13 45
+flop i13
+rotate i13 270
+waves i13 w/40 w/6.5 5
+rotate i13 90
+hueshifthsv i13 45
+flop i13
+rotate i13 270
+waves i13 w/40 w/6.5 5
+rotate i13 90
+hueshifthsv i13 45
+flop i13
+rotate i13 270
+waves i13 w/40 w/6.5 5
+rotate i13 90
+hueshifthsv i13 45
+flop i13
+rotate i13 270
+waves i13 w/40 w/6.5 5
+rotate i13 90
+hueshifthsv i13 45
+flop i13
+rotate i13 270
+waves i13 w/40 w/6.5 5
+rotate i13 90
+hueshifthsv i13 45
+flop i13
+rotate i13 270
+waves i13 w/40 w/6.5 5
+rotate i13 90
+hueshifthsv i13 45
+flop i13
+rotate i13 270
+waves i13 w/40 w/6.5 5
+rotate i13 90
+hueshifthsv i13 45
+flop i13
+rotate i13 270
+waves i13 w/40 w/6.5 5
+rotate i13 90
+hueshifthsv i13 45
+flop i13
+rotate i13 270
+waves i13 w/40 w/6.5 5
+rotate i13 90
+hueshifthsv i13 45
+flop i13
+rotate i13 270
+waves i13 w/40 w/6.5 5
+rotate i13 90
+hueshifthsv i13 45
+flop i13
+rotate i13 270
+waves i13 w/40 w/6.5 5
+rotate i13 90
+hueshifthsv i13 45
+flop i13
+rotate i13 270
+waves i13 w/40 w/6.5 5
+rotate i13 90
+hueshifthsv i13 45
+audiopitch i13 2.118926
+snip i13 0 {get:end}*1
+load {iv:{args}} i14
+resize i14 640 360
+repeatduration i14 8.399999999999995+{get:end}
+snip i14 8.399999999999995 8.399999999999995+{get:end}
+flop i14
+rotate i14 270
+waves i14 w/40 w/6.5 5
+rotate i14 90
+hueshifthsv i14 45
+flop i14
+rotate i14 270
+waves i14 w/40 w/6.5 5
+rotate i14 90
+hueshifthsv i14 45
+flop i14
+rotate i14 270
+waves i14 w/40 w/6.5 5
+rotate i14 90
+hueshifthsv i14 45
+flop i14
+rotate i14 270
+waves i14 w/40 w/6.5 5
+rotate i14 90
+hueshifthsv i14 45
+flop i14
+rotate i14 270
+waves i14 w/40 w/6.5 5
+rotate i14 90
+hueshifthsv i14 45
+flop i14
+rotate i14 270
+waves i14 w/40 w/6.5 5
+rotate i14 90
+hueshifthsv i14 45
+flop i14
+rotate i14 270
+waves i14 w/40 w/6.5 5
+rotate i14 90
+hueshifthsv i14 45
+flop i14
+rotate i14 270
+waves i14 w/40 w/6.5 5
+rotate i14 90
+hueshifthsv i14 45
+flop i14
+rotate i14 270
+waves i14 w/40 w/6.5 5
+rotate i14 90
+hueshifthsv i14 45
+flop i14
+rotate i14 270
+waves i14 w/40 w/6.5 5
+rotate i14 90
+hueshifthsv i14 45
+flop i14
+rotate i14 270
+waves i14 w/40 w/6.5 5
+rotate i14 90
+hueshifthsv i14 45
+flop i14
+rotate i14 270
+waves i14 w/40 w/6.5 5
+rotate i14 90
+hueshifthsv i14 45
+flop i14
+rotate i14 270
+waves i14 w/40 w/6.5 5
+rotate i14 90
+hueshifthsv i14 45
+flop i14
+rotate i14 270
+waves i14 w/40 w/6.5 5
+rotate i14 90
+hueshifthsv i14 45
+audiopitch i14 2.244924
+snip i14 0 {get:end}*1
+load {iv:{args}} i15
+resize i15 640 360
+repeatduration i15 8.499999999999995+{get:end}
+snip i15 8.499999999999995 8.499999999999995+{get:end}
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+flop i15
+rotate i15 270
+waves i15 w/40 w/6.5 5
+rotate i15 90
+hueshifthsv i15 45
+audiopitch i15 2.378414
+snip i15 0 {get:end}*1
+load {iv:{args}} i16
+resize i16 640 360
+repeatduration i16 8.599999999999994+{get:end}
+snip i16 8.599999999999994 8.599999999999994+{get:end}
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+flop i16
+rotate i16 270
+waves i16 w/40 w/6.5 5
+rotate i16 90
+hueshifthsv i16 45
+audiopitch i16 2.519842
+snip i16 0 {get:end}*1
+load {iv:{args}} i17
+resize i17 640 360
+repeatduration i17 8.699999999999994+{get:end}
+snip i17 8.699999999999994 8.699999999999994+{get:end}
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+flop i17
+rotate i17 270
+waves i17 w/40 w/6.5 5
+rotate i17 90
+hueshifthsv i17 45
+audiopitch i17 2.669680
+snip i17 0 {get:end}*1
+load {iv:{args}} i18
+resize i18 640 360
+repeatduration i18 8.799999999999994+{get:end}
+snip i18 8.799999999999994 8.799999999999994+{get:end}
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+flop i18
+rotate i18 270
+waves i18 w/40 w/6.5 5
+rotate i18 90
+hueshifthsv i18 45
+audiopitch i18 2.828427
+snip i18 0 {get:end}*1
+load {iv:{args}} i19
+resize i19 640 360
+repeatduration i19 8.899999999999993+{get:end}
+snip i19 8.899999999999993 8.899999999999993+{get:end}
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+flop i19
+rotate i19 270
+waves i19 w/40 w/6.5 5
+rotate i19 90
+hueshifthsv i19 45
+audiopitch i19 2.996614
+snip i19 0 {get:end}*1
+load {iv:{args}} i20
+resize i20 640 360
+repeatduration i20 8.999999999999993+{get:end}
+snip i20 8.999999999999993 8.999999999999993+{get:end}
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+flop i20
+rotate i20 270
+waves i20 w/40 w/6.5 5
+rotate i20 90
+hueshifthsv i20 45
+audiopitch i20 3.174802
+snip i20 0 {get:end}*1
+load {iv:{args}} i21
+resize i21 640 360
+repeatduration i21 9.099999999999993+{get:end}
+snip i21 9.099999999999993 9.099999999999993+{get:end}
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+flop i21
+rotate i21 270
+waves i21 w/40 w/6.5 5
+rotate i21 90
+hueshifthsv i21 45
+audiopitch i21 3.363586
+snip i21 0 {get:end}*1
+load {iv:{args}} i22
+resize i22 640 360
+repeatduration i22 9.199999999999992+{get:end}
+snip i22 9.199999999999992 9.199999999999992+{get:end}
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+flop i22
+rotate i22 270
+waves i22 w/40 w/6.5 5
+rotate i22 90
+hueshifthsv i22 45
+audiopitch i22 3.563595
+snip i22 0 {get:end}*1
+load {iv:{args}} i23
+resize i23 640 360
+repeatduration i23 9.299999999999992+{get:end}
+snip i23 9.299999999999992 9.299999999999992+{get:end}
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+flop i23
+rotate i23 270
+waves i23 w/40 w/6.5 5
+rotate i23 90
+hueshifthsv i23 45
+audiopitch i23 3.775497
+snip i23 0 {get:end}*1
+load {iv:{args}} i24
+resize i24 640 360
+repeatduration i24 9.399999999999991+{get:end}
+snip i24 9.399999999999991 9.399999999999991+{get:end}
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+flop i24
+rotate i24 270
+waves i24 w/40 w/6.5 5
+rotate i24 90
+hueshifthsv i24 45
+audiopitch i24 4.000000
+snip i24 0 {get:end}*1
+load {iv:{args}} i25
+resize i25 640 360
+repeatduration i25 9.499999999999991+{get:end}
+snip i25 9.499999999999991 9.499999999999991+{get:end}
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+flop i25
+rotate i25 270
+waves i25 w/40 w/6.5 5
+rotate i25 90
+hueshifthsv i25 45
+audiopitch i25 4.237852
+snip i25 0 {get:end}*1
+load {iv:{args}} i26
+resize i26 640 360
+repeatduration i26 9.59999999999999+{get:end}
+snip i26 9.59999999999999 9.59999999999999+{get:end}
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+flop i26
+rotate i26 270
+waves i26 w/40 w/6.5 5
+rotate i26 90
+hueshifthsv i26 45
+audiopitch i26 4.489848
+snip i26 0 {get:end}*1
+load {iv:{args}} i27
+resize i27 640 360
+repeatduration i27 9.69999999999999+{get:end}
+snip i27 9.69999999999999 9.69999999999999+{get:end}
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+flop i27
+rotate i27 270
+waves i27 w/40 w/6.5 5
+rotate i27 90
+hueshifthsv i27 45
+audiopitch i27 4.756828
+snip i27 0 {get:end}*1
+load {iv:{args}} i28
+resize i28 640 360
+repeatduration i28 9.79999999999999+{get:end}
+snip i28 9.79999999999999 9.79999999999999+{get:end}
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+flop i28
+rotate i28 270
+waves i28 w/40 w/6.5 5
+rotate i28 90
+hueshifthsv i28 45
+audiopitch i28 5.039684
+snip i28 0 {get:end}*1
+load {iv:{args}} i29
+resize i29 640 360
+repeatduration i29 9.89999999999999+{get:end}
+snip i29 9.89999999999999 9.89999999999999+{get:end}
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+flop i29
+rotate i29 270
+waves i29 w/40 w/6.5 5
+rotate i29 90
+hueshifthsv i29 45
+audiopitch i29 5.339359
+snip i29 0 {get:end}*1
+load {iv:{args}} i30
+resize i30 640 360
+repeatduration i30 9.99999999999999+{get:end}
+snip i30 9.99999999999999 9.99999999999999+{get:end}
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+flop i30
+rotate i30 270
+waves i30 w/40 w/6.5 5
+rotate i30 90
+hueshifthsv i30 45
+audiopitch i30 5.656854
+snip i30 0 {get:end}*1
+load {iv:{args}} i31
+resize i31 640 360
+repeatduration i31 10.099999999999989+{get:end}
+snip i31 10.099999999999989 10.099999999999989+{get:end}
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+flop i31
+rotate i31 270
+waves i31 w/40 w/6.5 5
+rotate i31 90
+hueshifthsv i31 45
+audiopitch i31 5.993228
+snip i31 0 {get:end}*1
+load {iv:{args}} i32
+resize i32 640 360
+repeatduration i32 10.199999999999989+{get:end}
+snip i32 10.199999999999989 10.199999999999989+{get:end}
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+flop i32
+rotate i32 270
+waves i32 w/40 w/6.5 5
+rotate i32 90
+hueshifthsv i32 45
+audiopitch i32 6.349604
+snip i32 0 {get:end}*1
+load {iv:{args}} i33
+resize i33 640 360
+repeatduration i33 10.299999999999988+{get:end}
+snip i33 10.299999999999988 10.299999999999988+{get:end}
+audiopitch i33 0.971532
+snip i33 0 {get:end}*1
+load {iv:{args}} i34
+resize i34 640 360
+repeatduration i34 10.399999999999988+{get:end}
+snip i34 10.399999999999988 10.399999999999988+{get:end}
+audiopitch i34 0.943874
+snip i34 0 {get:end}*1
+load {iv:{args}} i35
+resize i35 640 360
+repeatduration i35 10.499999999999988+{get:end}
+snip i35 10.499999999999988 10.499999999999988+{get:end}
+audiopitch i35 0.917004
+snip i35 0 {get:end}*1
+load {iv:{args}} i36
+resize i36 640 360
+repeatduration i36 10.599999999999987+{get:end}
+snip i36 10.599999999999987 10.599999999999987+{get:end}
+audiopitch i36 0.890899
+snip i36 0 {get:end}*1
+load {iv:{args}} i37
+resize i37 640 360
+repeatduration i37 10.699999999999987+{get:end}
+snip i37 10.699999999999987 10.699999999999987+{get:end}
+audiopitch i37 0.865537
+snip i37 0 {get:end}*1
+load {iv:{args}} i38
+resize i38 640 360
+repeatduration i38 10.799999999999986+{get:end}
+snip i38 10.799999999999986 10.799999999999986+{get:end}
+audiopitch i38 0.840896
+snip i38 0 {get:end}*1
+load {iv:{args}} i39
+resize i39 640 360
+repeatduration i39 10.899999999999986+{get:end}
+snip i39 10.899999999999986 10.899999999999986+{get:end}
+audiopitch i39 0.816958
+snip i39 0 {get:end}*1
+load {iv:{args}} i40
+resize i40 640 360
+repeatduration i40 10.999999999999986+{get:end}
+snip i40 10.999999999999986 10.999999999999986+{get:end}
+audiopitch i40 0.793701
+snip i40 0 {get:end}*1
+load {iv:{args}} i41
+resize i41 640 360
+repeatduration i41 11.099999999999985+{get:end}
+snip i41 11.099999999999985 11.099999999999985+{get:end}
+audiopitch i41 0.771105
+snip i41 0 {get:end}*1
+load {iv:{args}} i42
+resize i42 640 360
+repeatduration i42 11.199999999999985+{get:end}
+snip i42 11.199999999999985 11.199999999999985+{get:end}
+audiopitch i42 0.749154
+snip i42 0 {get:end}*1
+load {iv:{args}} i43
+resize i43 640 360
+repeatduration i43 11.299999999999985+{get:end}
+snip i43 11.299999999999985 11.299999999999985+{get:end}
+audiopitch i43 0.727827
+snip i43 0 {get:end}*1
+load {iv:{args}} i44
+resize i44 640 360
+repeatduration i44 11.399999999999984+{get:end}
+snip i44 11.399999999999984 11.399999999999984+{get:end}
+audiopitch i44 0.707107
+snip i44 0 {get:end}*1
+load {iv:{args}} i45
+resize i45 640 360
+repeatduration i45 11.499999999999984+{get:end}
+snip i45 11.499999999999984 11.499999999999984+{get:end}
+audiopitch i45 0.686977
+snip i45 0 {get:end}*1
+load {iv:{args}} i46
+resize i46 640 360
+repeatduration i46 11.599999999999984+{get:end}
+snip i46 11.599999999999984 11.599999999999984+{get:end}
+audiopitch i46 0.667420
+snip i46 0 {get:end}*1
+load {iv:{args}} i47
+resize i47 640 360
+repeatduration i47 11.699999999999983+{get:end}
+snip i47 11.699999999999983 11.699999999999983+{get:end}
+audiopitch i47 0.648420
+snip i47 0 {get:end}*1
+load {iv:{args}} i48
+resize i48 640 360
+repeatduration i48 11.799999999999983+{get:end}
+snip i48 11.799999999999983 11.799999999999983+{get:end}
+audiopitch i48 0.629961
+snip i48 0 {get:end}*1
+load {iv:{args}} i49
+resize i49 640 360
+repeatduration i49 11.899999999999983+{get:end}
+snip i49 11.899999999999983 11.899999999999983+{get:end}
+audiopitch i49 0.612027
+snip i49 0 {get:end}*1
+load {iv:{args}} i50
+resize i50 640 360
+repeatduration i50 11.999999999999982+{get:end}
+snip i50 11.999999999999982 11.999999999999982+{get:end}
+audiopitch i50 0.594604
+snip i50 0 {get:end}*1
+load {iv:{args}} i51
+resize i51 640 360
+repeatduration i51 12.099999999999982+{get:end}
+snip i51 12.099999999999982 12.099999999999982+{get:end}
+audiopitch i51 0.577676
+snip i51 0 {get:end}*1
+load {iv:{args}} i52
+resize i52 640 360
+repeatduration i52 12.199999999999982+{get:end}
+snip i52 12.199999999999982 12.199999999999982+{get:end}
+audiopitch i52 0.561231
+snip i52 0 {get:end}*1
+load {iv:{args}} i53
+resize i53 640 360
+repeatduration i53 12.299999999999981+{get:end}
+snip i53 12.299999999999981 12.299999999999981+{get:end}
+audiopitch i53 0.545254
+snip i53 0 {get:end}*1
+load {iv:{args}} i54
+resize i54 640 360
+repeatduration i54 12.39999999999998+{get:end}
+snip i54 12.39999999999998 12.39999999999998+{get:end}
+audiopitch i54 0.529732
+snip i54 0 {get:end}*1
+load {iv:{args}} i55
+resize i55 640 360
+repeatduration i55 12.49999999999998+{get:end}
+snip i55 12.49999999999998 12.49999999999998+{get:end}
+audiopitch i55 0.514651
+snip i55 0 {get:end}*1
+load {iv:{args}} i56
+resize i56 640 360
+repeatduration i56 12.59999999999998+{get:end}
+snip i56 12.59999999999998 12.59999999999998+{get:end}
+audiopitch i56 0.500000
+snip i56 0 {get:end}*1
+load {iv:{args}} i57
+resize i57 640 360
+repeatduration i57 12.69999999999998+{get:end}
+snip i57 12.69999999999998 12.69999999999998+{get:end}
+audiopitch i57 0.485766
+snip i57 0 {get:end}*1
+load {iv:{args}} i58
+resize i58 640 360
+repeatduration i58 12.79999999999998+{get:end}
+snip i58 12.79999999999998 12.79999999999998+{get:end}
+audiopitch i58 0.471937
+snip i58 0 {get:end}*1
+load {iv:{args}} i59
+resize i59 640 360
+repeatduration i59 12.899999999999979+{get:end}
+snip i59 12.899999999999979 12.899999999999979+{get:end}
+audiopitch i59 0.458502
+snip i59 0 {get:end}*1
+load {iv:{args}} i60
+resize i60 640 360
+repeatduration i60 12.999999999999979+{get:end}
+snip i60 12.999999999999979 12.999999999999979+{get:end}
+audiopitch i60 0.445449
+snip i60 0 {get:end}*1
+load {iv:{args}} i61
+resize i61 640 360
+repeatduration i61 13.099999999999978+{get:end}
+snip i61 13.099999999999978 13.099999999999978+{get:end}
+audiopitch i61 0.432768
+snip i61 0 {get:end}*1
+load {iv:{args}} i62
+resize i62 640 360
+repeatduration i62 13.199999999999978+{get:end}
+snip i62 13.199999999999978 13.199999999999978+{get:end}
+audiopitch i62 0.420448
+snip i62 0 {get:end}*1
+load {iv:{args}} i63
+resize i63 640 360
+repeatduration i63 13.299999999999978+{get:end}
+snip i63 13.299999999999978 13.299999999999978+{get:end}
+audiopitch i63 0.408479
+snip i63 0 {get:end}*1
+load {iv:{args}} i64
+resize i64 640 360
+repeatduration i64 13.399999999999977+{get:end}
+snip i64 13.399999999999977 13.399999999999977+{get:end}
+audiopitch i64 0.396850
+snip i64 0 {get:end}*1
+load {iv:{args}} i65
+resize i65 640 360
+repeatduration i65 13.499999999999977+{get:end}
+snip i65 13.499999999999977 13.499999999999977+{get:end}
+hueshifthsv i65 180
+flop i65
+snip i65 0 {get:end}*0.5
+load {iv:{args}} i66
+resize i66 640 360
+repeatduration i66 13.599999999999977+{get:end}
+snip i66 13.599999999999977 13.599999999999977+{get:end}
+hueshifthsv i66 180
+flop i66
+hueshifthsv i66 180
+flop i66
+snip i66 0 {get:end}*0.5
+load {iv:{args}} i67
+resize i67 640 360
+repeatduration i67 13.699999999999976+{get:end}
+snip i67 13.699999999999976 13.699999999999976+{get:end}
+hueshifthsv i67 180
+flop i67
+hueshifthsv i67 180
+flop i67
+hueshifthsv i67 180
+flop i67
+snip i67 0 {get:end}*0.5
+load {iv:{args}} i68
+resize i68 640 360
+repeatduration i68 13.799999999999976+{get:end}
+snip i68 13.799999999999976 13.799999999999976+{get:end}
+hueshifthsv i68 180
+flop i68
+hueshifthsv i68 180
+flop i68
+hueshifthsv i68 180
+flop i68
+hueshifthsv i68 180
+flop i68
+snip i68 0 {get:end}*0.5
+load {iv:{args}} i69
+resize i69 640 360
+repeatduration i69 13.899999999999975+{get:end}
+snip i69 13.899999999999975 13.899999999999975+{get:end}
+hueshifthsv i69 180
+flop i69
+hueshifthsv i69 180
+flop i69
+hueshifthsv i69 180
+flop i69
+hueshifthsv i69 180
+flop i69
+hueshifthsv i69 180
+flop i69
+snip i69 0 {get:end}*0.5
+load {iv:{args}} i70
+resize i70 640 360
+repeatduration i70 13.999999999999975+{get:end}
+snip i70 13.999999999999975 13.999999999999975+{get:end}
+hueshifthsv i70 180
+flop i70
+hueshifthsv i70 180
+flop i70
+hueshifthsv i70 180
+flop i70
+hueshifthsv i70 180
+flop i70
+hueshifthsv i70 180
+flop i70
+hueshifthsv i70 180
+flop i70
+snip i70 0 {get:end}*0.5
+load {iv:{args}} i71
+resize i71 640 360
+repeatduration i71 14.099999999999975+{get:end}
+snip i71 14.099999999999975 14.099999999999975+{get:end}
+hueshifthsv i71 180
+flop i71
+hueshifthsv i71 180
+flop i71
+hueshifthsv i71 180
+flop i71
+hueshifthsv i71 180
+flop i71
+hueshifthsv i71 180
+flop i71
+hueshifthsv i71 180
+flop i71
+hueshifthsv i71 180
+flop i71
+snip i71 0 {get:end}*0.5
+load {iv:{args}} i72
+resize i72 640 360
+repeatduration i72 14.199999999999974+{get:end}
+snip i72 14.199999999999974 14.199999999999974+{get:end}
+hueshifthsv i72 180
+flop i72
+hueshifthsv i72 180
+flop i72
+hueshifthsv i72 180
+flop i72
+hueshifthsv i72 180
+flop i72
+hueshifthsv i72 180
+flop i72
+hueshifthsv i72 180
+flop i72
+hueshifthsv i72 180
+flop i72
+hueshifthsv i72 180
+flop i72
+snip i72 0 {get:end}*0.5
+load {iv:{args}} i73
+resize i73 640 360
+repeatduration i73 14.299999999999974+{get:end}
+snip i73 14.299999999999974 14.299999999999974+{get:end}
+hueshifthsv i73 180
+flop i73
+hueshifthsv i73 180
+flop i73
+hueshifthsv i73 180
+flop i73
+hueshifthsv i73 180
+flop i73
+hueshifthsv i73 180
+flop i73
+hueshifthsv i73 180
+flop i73
+hueshifthsv i73 180
+flop i73
+hueshifthsv i73 180
+flop i73
+hueshifthsv i73 180
+flop i73
+snip i73 0 {get:end}*0.5
+load {iv:{args}} i74
+resize i74 640 360
+repeatduration i74 14.399999999999974+{get:end}
+snip i74 14.399999999999974 14.399999999999974+{get:end}
+hueshifthsv i74 180
+flop i74
+hueshifthsv i74 180
+flop i74
+hueshifthsv i74 180
+flop i74
+hueshifthsv i74 180
+flop i74
+hueshifthsv i74 180
+flop i74
+hueshifthsv i74 180
+flop i74
+hueshifthsv i74 180
+flop i74
+hueshifthsv i74 180
+flop i74
+hueshifthsv i74 180
+flop i74
+hueshifthsv i74 180
+flop i74
+snip i74 0 {get:end}*0.5
+load {iv:{args}} i75
+resize i75 640 360
+repeatduration i75 14.499999999999973+{get:end}
+snip i75 14.499999999999973 14.499999999999973+{get:end}
+hueshifthsv i75 180
+flop i75
+hueshifthsv i75 180
+flop i75
+hueshifthsv i75 180
+flop i75
+hueshifthsv i75 180
+flop i75
+hueshifthsv i75 180
+flop i75
+hueshifthsv i75 180
+flop i75
+hueshifthsv i75 180
+flop i75
+hueshifthsv i75 180
+flop i75
+hueshifthsv i75 180
+flop i75
+hueshifthsv i75 180
+flop i75
+hueshifthsv i75 180
+flop i75
+snip i75 0 {get:end}*0.5
+load {iv:{args}} i76
+resize i76 640 360
+repeatduration i76 14.599999999999973+{get:end}
+snip i76 14.599999999999973 14.599999999999973+{get:end}
+hueshifthsv i76 180
+flop i76
+hueshifthsv i76 180
+flop i76
+hueshifthsv i76 180
+flop i76
+hueshifthsv i76 180
+flop i76
+hueshifthsv i76 180
+flop i76
+hueshifthsv i76 180
+flop i76
+hueshifthsv i76 180
+flop i76
+hueshifthsv i76 180
+flop i76
+hueshifthsv i76 180
+flop i76
+hueshifthsv i76 180
+flop i76
+hueshifthsv i76 180
+flop i76
+hueshifthsv i76 180
+flop i76
+snip i76 0 {get:end}*0.5
+load {iv:{args}} i77
+resize i77 640 360
+repeatduration i77 14.699999999999973+{get:end}
+snip i77 14.699999999999973 14.699999999999973+{get:end}
+hueshifthsv i77 180
+flop i77
+hueshifthsv i77 180
+flop i77
+hueshifthsv i77 180
+flop i77
+hueshifthsv i77 180
+flop i77
+hueshifthsv i77 180
+flop i77
+hueshifthsv i77 180
+flop i77
+hueshifthsv i77 180
+flop i77
+hueshifthsv i77 180
+flop i77
+hueshifthsv i77 180
+flop i77
+hueshifthsv i77 180
+flop i77
+hueshifthsv i77 180
+flop i77
+hueshifthsv i77 180
+flop i77
+hueshifthsv i77 180
+flop i77
+snip i77 0 {get:end}*0.5
+load {iv:{args}} i78
+resize i78 640 360
+repeatduration i78 14.799999999999972+{get:end}
+snip i78 14.799999999999972 14.799999999999972+{get:end}
+hueshifthsv i78 180
+flop i78
+hueshifthsv i78 180
+flop i78
+hueshifthsv i78 180
+flop i78
+hueshifthsv i78 180
+flop i78
+hueshifthsv i78 180
+flop i78
+hueshifthsv i78 180
+flop i78
+hueshifthsv i78 180
+flop i78
+hueshifthsv i78 180
+flop i78
+hueshifthsv i78 180
+flop i78
+hueshifthsv i78 180
+flop i78
+hueshifthsv i78 180
+flop i78
+hueshifthsv i78 180
+flop i78
+hueshifthsv i78 180
+flop i78
+hueshifthsv i78 180
+flop i78
+snip i78 0 {get:end}*0.5
+load {iv:{args}} i79
+resize i79 640 360
+repeatduration i79 14.899999999999972+{get:end}
+snip i79 14.899999999999972 14.899999999999972+{get:end}
+hueshifthsv i79 180
+flop i79
+hueshifthsv i79 180
+flop i79
+hueshifthsv i79 180
+flop i79
+hueshifthsv i79 180
+flop i79
+hueshifthsv i79 180
+flop i79
+hueshifthsv i79 180
+flop i79
+hueshifthsv i79 180
+flop i79
+hueshifthsv i79 180
+flop i79
+hueshifthsv i79 180
+flop i79
+hueshifthsv i79 180
+flop i79
+hueshifthsv i79 180
+flop i79
+hueshifthsv i79 180
+flop i79
+hueshifthsv i79 180
+flop i79
+hueshifthsv i79 180
+flop i79
+hueshifthsv i79 180
+flop i79
+snip i79 0 {get:end}*0.5
+load {iv:{args}} i80
+resize i80 640 360
+repeatduration i80 14.999999999999972+{get:end}
+snip i80 14.999999999999972 14.999999999999972+{get:end}
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+hueshifthsv i80 180
+flop i80
+snip i80 0 {get:end}*0.5
+load {iv:{args}} i81
+resize i81 640 360
+repeatduration i81 15.099999999999971+{get:end}
+snip i81 15.099999999999971 15.099999999999971+{get:end}
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+hueshifthsv i81 180
+flop i81
+snip i81 0 {get:end}*0.5
+load {iv:{args}} i82
+resize i82 640 360
+repeatduration i82 15.19999999999997+{get:end}
+snip i82 15.19999999999997 15.19999999999997+{get:end}
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+hueshifthsv i82 180
+flop i82
+snip i82 0 {get:end}*0.5
+load {iv:{args}} i83
+resize i83 640 360
+repeatduration i83 15.29999999999997+{get:end}
+snip i83 15.29999999999997 15.29999999999997+{get:end}
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+hueshifthsv i83 180
+flop i83
+snip i83 0 {get:end}*0.5
+load {iv:{args}} i84
+resize i84 640 360
+repeatduration i84 15.39999999999997+{get:end}
+snip i84 15.39999999999997 15.39999999999997+{get:end}
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+hueshifthsv i84 180
+flop i84
+snip i84 0 {get:end}*0.5
+load {iv:{args}} i85
+resize i85 640 360
+repeatduration i85 15.49999999999997+{get:end}
+snip i85 15.49999999999997 15.49999999999997+{get:end}
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+hueshifthsv i85 180
+flop i85
+snip i85 0 {get:end}*0.5
+load {iv:{args}} i86
+resize i86 640 360
+repeatduration i86 15.59999999999997+{get:end}
+snip i86 15.59999999999997 15.59999999999997+{get:end}
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+hueshifthsv i86 180
+flop i86
+snip i86 0 {get:end}*0.5
+load {iv:{args}} i87
+resize i87 640 360
+repeatduration i87 15.699999999999969+{get:end}
+snip i87 15.699999999999969 15.699999999999969+{get:end}
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+hueshifthsv i87 180
+flop i87
+snip i87 0 {get:end}*0.5
+load {iv:{args}} i88
+resize i88 640 360
+repeatduration i88 15.799999999999969+{get:end}
+snip i88 15.799999999999969 15.799999999999969+{get:end}
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+hueshifthsv i88 180
+flop i88
+snip i88 0 {get:end}*0.5
+load {iv:{args}} i89
+resize i89 640 360
+repeatduration i89 15.899999999999968+{get:end}
+snip i89 15.899999999999968 15.899999999999968+{get:end}
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+hueshifthsv i89 180
+flop i89
+snip i89 0 {get:end}*0.5
+load {iv:{args}} i90
+resize i90 640 360
+repeatduration i90 15.999999999999968+{get:end}
+snip i90 15.999999999999968 15.999999999999968+{get:end}
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+hueshifthsv i90 180
+flop i90
+snip i90 0 {get:end}*0.5
+load {iv:{args}} i91
+resize i91 640 360
+repeatduration i91 16.09999999999997+{get:end}
+snip i91 16.09999999999997 16.09999999999997+{get:end}
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+hueshifthsv i91 180
+flop i91
+snip i91 0 {get:end}*0.5
+load {iv:{args}} i92
+resize i92 640 360
+repeatduration i92 16.19999999999997+{get:end}
+snip i92 16.19999999999997 16.19999999999997+{get:end}
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+hueshifthsv i92 180
+flop i92
+snip i92 0 {get:end}*0.5
+load {iv:{args}} i93
+resize i93 640 360
+repeatduration i93 16.299999999999972+{get:end}
+snip i93 16.299999999999972 16.299999999999972+{get:end}
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+hueshifthsv i93 180
+flop i93
+snip i93 0 {get:end}*0.5
+load {iv:{args}} i94
+resize i94 640 360
+repeatduration i94 16.399999999999974+{get:end}
+snip i94 16.399999999999974 16.399999999999974+{get:end}
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+hueshifthsv i94 180
+flop i94
+snip i94 0 {get:end}*0.5
+load {iv:{args}} i95
+resize i95 640 360
+repeatduration i95 16.499999999999975+{get:end}
+snip i95 16.499999999999975 16.499999999999975+{get:end}
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+hueshifthsv i95 180
+flop i95
+snip i95 0 {get:end}*0.5
+load {iv:{args}} i96
+resize i96 640 360
+repeatduration i96 16.599999999999977+{get:end}
+snip i96 16.599999999999977 16.599999999999977+{get:end}
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+hueshifthsv i96 180
+flop i96
+snip i96 0 {get:end}*0.5
+concatmultiple i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14 i15 i16 i17 i18 i19 i20 i21 i22 i23 i24 i25 i26 i27 i28 i29 i30 i31 i32 i33 i34 i35 i36 i37 i38 i39 i40 i41 i42 i43 i44 i45 i46 i47 i48 i49 i50 i51 i52 i53 i54 i55 i56 i57 i58 i59 i60 i61 i62 i63 i64 i65 i66 i67 i68 i69 i70 i71 i72 i73 i74 i75 i76 i77 i78 i79 i80 i81 i82 i83 i84 i85 i86 i87 i88 i89 i90 i91 i92 i93 i94 i95 i96
+cover i1 w h
+render i1 default preview
+}|{choose:Dude, how?!|Tag returned no content}}
